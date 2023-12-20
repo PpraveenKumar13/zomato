@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.banner{
+    background-image: url(zomato-img.avif);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner ul{
+    display: flex;
+    position: absolute;
+    right: 300px;
+}
+.banner ul li a{
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.banner ul li{
+    list-style: none;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+}
+.zomato-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.banner h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+.location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.location h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.location p{
+    font-size: 1.3rem;
+    color: gray;
+}
+.location a{
+    text-decoration: none;
+    color: black;
+    margin: 34px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.capitals{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+}
+.final{
+    
+}
+.final-one{
+    display: flex;
+    justify-content: space-between;
+    margin:0 100px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+.end li a{
+    text-decoration: none;
+    color: black;
+}
+.end li{
+    list-style: none;
+}
+.end h4{
+    position: relative;
+    left: 40px;
+}
